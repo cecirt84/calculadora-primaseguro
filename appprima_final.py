@@ -318,7 +318,6 @@ elif st.session_state['pagina'] == 3:
             "mostro_prima": False,
             "ajuste_realizado": False
         })
-        safe_rerun()
 
     # Recuperar datos del session_state    
     edad = st.session_state.get("edad", 35)
